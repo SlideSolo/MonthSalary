@@ -7,8 +7,6 @@ curr_date = d.strftime("%d/%m/%Y")
 url_currency = 'http://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=' + curr_date + '&date_req2=' \
                + curr_date + '&VAL_NM_RQ=R01035'
 
-print(url_currency)
-
 
 def parse(xmldata):
     currency_items = []
